@@ -1,5 +1,7 @@
 package com.xlebyshek17.binarytree.dfs;
 
+import com.xlebyshek17.binarytree.TreeNode;
+
 public class LC112_PathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;

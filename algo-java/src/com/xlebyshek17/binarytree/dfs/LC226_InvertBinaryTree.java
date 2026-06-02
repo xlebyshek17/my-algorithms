@@ -1,5 +1,7 @@
 package com.xlebyshek17.binarytree.dfs;
 
+import com.xlebyshek17.binarytree.TreeNode;
+
 public class LC226_InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
